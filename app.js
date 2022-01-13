@@ -1,5 +1,6 @@
 function main() {
   // scene camera render  - 3 musts!
+  import { OrbitControls } from "https://threejs.org/examples/jsm/controls/OrbitControls.js"
   const canvas = document.querySelector("#c");
 
   const fov = 75;
